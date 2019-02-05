@@ -17,4 +17,4 @@ steps:
   displayName: 'dotnet build $(buildConfiguration)'
 - task: PublishPipelineArtifact@0
   inputs:
-    targetPath: $(Build.ArtifactStagingDirectory)
+    targetPath: "/home/vsts/work/1/s"
